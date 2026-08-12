@@ -1,0 +1,27 @@
+.toggle {
+  width: 44px;
+  height: 26px;
+  border-radius: var(--radius-pill);
+  border: 1px solid var(--border);
+  background: var(--card-alt);
+  padding: 2px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  transition: background var(--transition-fast);
+  flex-shrink: 0;
+}
+
+.toggle--on {
+  background: var(--cyan);
+  border-color: var(--cyan);
+  justify-content: flex-end;
+}
+
+.toggle-knob {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: #fff;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+}

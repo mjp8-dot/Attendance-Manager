@@ -1,0 +1,90 @@
+.today-card {
+  padding: var(--space-3) var(--space-4);
+}
+
+.today-empty {
+  color: var(--text-secondary);
+  font-size: 13px;
+  padding: var(--space-3) 0;
+}
+
+.today-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.today-row {
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+  padding: 9px 0;
+  border-bottom: 1px solid var(--border);
+  font-size: 13px;
+}
+
+.today-row:last-child {
+  border-bottom: none;
+}
+
+.today-time {
+  color: var(--text-secondary);
+  font-variant-numeric: tabular-nums;
+  width: 68px;
+  flex-shrink: 0;
+}
+
+.today-name {
+  flex: 1;
+  font-weight: 600;
+}
+
+.today-status {
+  width: 16px;
+  height: 16px;
+}
+.today-status--green {
+  color: var(--green);
+}
+.today-status--red {
+  color: var(--red);
+}
+.today-status--muted {
+  color: var(--text-tertiary);
+}
+
+.today-cancelled {
+  font-size: 11px;
+  color: var(--text-tertiary);
+}
+
+.today-link {
+  display: block;
+  margin-top: var(--space-2);
+  padding-top: var(--space-2);
+  border-top: 1px solid var(--border);
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--cyan);
+  text-decoration: none;
+}
+
+.subject-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--space-3);
+}
+
+@media (min-width: 640px) {
+  .subject-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (min-width: 1024px) {
+  .subject-grid {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}

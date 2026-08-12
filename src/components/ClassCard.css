@@ -1,0 +1,104 @@
+.class-card {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  justify-content: center;
+  border: 1px solid var(--border);
+  border-left: 3px solid var(--cyan);
+}
+
+.class-card--green {
+  border-left-color: var(--green);
+}
+.class-card--purple {
+  border-left-color: var(--purple);
+}
+.class-card--cyan {
+  border-left-color: var(--cyan);
+}
+.class-card--orange {
+  border-left-color: var(--orange);
+}
+.class-card--yellow {
+  border-left-color: var(--yellow);
+}
+
+.class-card--now {
+  border-color: var(--cyan);
+  box-shadow: 0 0 0 1px var(--cyan);
+}
+
+.class-card--cancelled {
+  opacity: 0.7;
+}
+
+.class-card-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-2);
+}
+
+.class-card-name {
+  font-weight: 700;
+  font-size: 15px;
+}
+
+.class-card-meta {
+  font-size: 12px;
+  color: var(--text-secondary);
+}
+
+.class-card-actions {
+  display: flex;
+  gap: var(--space-2);
+  margin-top: 4px;
+  flex-wrap: wrap;
+}
+
+.class-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  border: 1px solid var(--border);
+  background: var(--card-alt);
+  color: var(--text-secondary);
+  font-size: 12px;
+  font-weight: 700;
+  padding: 7px 14px;
+  border-radius: var(--radius-pill);
+  transition: all var(--transition-fast);
+}
+
+.class-btn--present.class-btn--active {
+  background: var(--green-bg);
+  color: var(--green);
+  border-color: var(--green);
+}
+
+.class-btn--absent.class-btn--active {
+  background: var(--red-bg);
+  color: var(--red);
+  border-color: var(--red);
+}
+
+.class-card-cancel {
+  border: none;
+  background: none;
+  color: var(--text-tertiary);
+  font-size: 11px;
+  text-decoration: underline;
+  margin-left: auto;
+  padding: 7px 4px;
+}
+
+.class-card-uncancel {
+  align-self: flex-start;
+  border: none;
+  background: none;
+  color: var(--orange);
+  font-size: 12px;
+  font-weight: 600;
+  text-decoration: underline;
+  padding: 0;
+}

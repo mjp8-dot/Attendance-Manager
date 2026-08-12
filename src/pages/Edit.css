@@ -1,0 +1,78 @@
+.edit-form {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-4);
+}
+
+.list-card-group {
+  padding: 0 var(--space-4);
+}
+
+.list-card {
+  padding: var(--space-3) 0;
+}
+
+.list-card-title {
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.list-card-sub {
+  font-size: 12px;
+  color: var(--text-secondary);
+  margin-top: 2px;
+}
+
+.list-card-actions {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+  flex-shrink: 0;
+}
+
+.icon-btn {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  border: 1px solid var(--border);
+  background: var(--card-alt);
+  color: var(--red);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.color-picker {
+  display: flex;
+  gap: var(--space-2);
+}
+
+.color-swatch {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 2px solid transparent;
+}
+
+.color-swatch--active {
+  border-color: var(--text-primary);
+}
+
+.color-swatch--green {
+  background: var(--green);
+}
+.color-swatch--purple {
+  background: var(--purple);
+}
+.color-swatch--cyan {
+  background: var(--cyan);
+}
+.color-swatch--orange {
+  background: var(--orange);
+}
+.color-swatch--yellow {
+  background: var(--yellow);
+}
+.color-swatch--blue {
+  background: var(--cyan);
+}

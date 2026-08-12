@@ -1,0 +1,27 @@
+.segmented {
+  display: inline-flex;
+  padding: 3px;
+  background: var(--card-alt);
+  border-radius: var(--radius-pill);
+  gap: 2px;
+}
+
+.segmented-item {
+  border: none;
+  background: transparent;
+  color: var(--text-secondary);
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  padding: 7px 16px;
+  border-radius: var(--radius-pill);
+  transition:
+    background var(--transition-fast),
+    color var(--transition-fast);
+}
+
+.segmented-item--active {
+  background: var(--card);
+  color: var(--text-primary);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}

@@ -1,0 +1,41 @@
+.overall-card {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+}
+
+.overall-card-pct {
+  font-size: 48px;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  line-height: 1;
+  margin: 4px 0 2px;
+}
+
+.overall-card-row {
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+  font-size: 13px;
+}
+
+.overall-card-target {
+  color: var(--text-secondary);
+}
+
+.overall-card-delta {
+  font-weight: 700;
+}
+
+.overall-card-delta--up {
+  color: var(--green);
+}
+
+.overall-card-delta--down {
+  color: var(--red);
+}
+
+.overall-card-status {
+  align-self: flex-start;
+  margin-top: 4px;
+}

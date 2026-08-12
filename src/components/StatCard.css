@@ -1,0 +1,36 @@
+.stat-card {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  padding: var(--space-4);
+}
+
+.stat-card-value {
+  font-size: 26px;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+}
+
+.stat-card-sub {
+  font-size: 12px;
+  color: var(--text-secondary);
+}
+
+.stat-card--green .stat-card-value {
+  color: var(--green);
+}
+.stat-card--red .stat-card-value {
+  color: var(--red);
+}
+.stat-card--yellow .stat-card-value {
+  color: var(--yellow);
+}
+.stat-card--purple .stat-card-value {
+  color: var(--purple);
+}
+.stat-card--cyan .stat-card-value {
+  color: var(--cyan);
+}
+.stat-card--orange .stat-card-value {
+  color: var(--orange);
+}
