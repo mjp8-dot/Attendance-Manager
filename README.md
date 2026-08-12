@@ -1,16 +1,25 @@
-# React + Vite
+Attendance Manager was built out of a very simple problem: keeping track of attendance manually is unnecessarily annoying.
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+Instead of constantly calculating percentages, checking how many classes I can afford to miss, and trying to figure out whether skipping one more lecture will destroy my attendance, I wanted a tool that could do all of that for me.
 
-Currently, two official plugins are available:
+The goal is to make attendance management visual, predictive, and actually useful. The app combines a personal timetable with one-tap attendance marking, subject-wise and overall statistics, safe-skip calculations, recovery predictions, and "what-if" forecasting so I can make decisions before walking into the inevitable academic consequences.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+🚀 What's next?
 
-## React Compiler
+This project is being developed as a mobile-first Progressive Web App, with the eventual goal of making it feel like a proper standalone mobile application rather than just a website.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Future development will focus on:
 
-## Expanding the Oxlint configuration
+📱 A polished standalone mobile experience
+☁️ Optional cloud sync and account-based backup
+📊 More advanced attendance analytics and trends
+🔮 Smarter forecasting and recommendations
+🔔 Notifications for upcoming classes and attendance risks
+📅 Calendar integration
+🤖 Intelligent attendance insights
+⚡ Better offline functionality
+🎨 Continued UI/UX refinement
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+The long-term goal is to turn it into a personal academic companion, not just an attendance calculator.
+
+Built because apparently calculating whether I can skip tomorrow's lecture needed an entire software application. So naturally, I built one.
